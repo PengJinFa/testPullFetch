@@ -13,7 +13,9 @@
 namespace Ui {
 class MainWindow;
 }
-int i=10;
+
+int i=100;
+
 
 class MainWindow : public QMainWindow
 {
@@ -43,6 +45,7 @@ private:
     std::thread _myThread;
 };
 float j=20;
+int z=i*j;
 
 //class MyMainWindow
 //{
