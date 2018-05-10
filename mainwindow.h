@@ -13,7 +13,7 @@
 namespace Ui {
 class MainWindow;
 }
-
+//我的贡献（我是贡献者）
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
