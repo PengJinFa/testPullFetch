@@ -13,7 +13,7 @@
 namespace Ui {
 class MainWindow;
 }
-//第四次更改（我是管理者）
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
