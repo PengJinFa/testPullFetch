@@ -16,7 +16,8 @@ class MainWindow;
 //我的贡献（我是贡献者）+1
 //第二个人克隆后的更改（我是管理者）
 
-//第二次更改（我是管理者）+2
+//第二次更改（我是管理者）+2+3+4
+//第三次更改（我是管理者）
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
