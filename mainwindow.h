@@ -9,7 +9,7 @@
 #include<functional>
 #include<chrono>
 #include"global.h"
-
+//test pull
 namespace Ui {
 class MainWindow;
 }
