@@ -13,11 +13,11 @@
 namespace Ui {
 class MainWindow;
 }
-<<<<<<< HEAD
-//我的贡献（我是贡献者）
-=======
+//我的贡献（我是贡献者）+1
 //第二个人克隆后的更改（我是管理者）
->>>>>>> bbb2cd7687959ea94aee781733aef571413b317b
+
+//第二次更改（我是管理者）+2
+//我的贡献2（我是贡献者）
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
