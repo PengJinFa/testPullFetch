@@ -25,6 +25,7 @@ public:
     static void TestThread(MainWindow* mw,std::promise<int>& prom);
     static void TestThread1(MainWindow* mw);
     void TestMyObject();
+    int test;
 
 
 private slots:
