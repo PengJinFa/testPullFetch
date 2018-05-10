@@ -14,8 +14,8 @@ namespace Ui {
 class MainWindow;
 }
 
-int i=100;
-
+int i=500;
+bool good;
 
 class MainWindow : public QMainWindow
 {
@@ -27,13 +27,6 @@ public:
     static void TestThread(MainWindow* mw,std::promise<int>& prom);
     static void TestThread1(MainWindow* mw);
     void TestMyObject();
-
-    int abc;
-
-    float d;
-
-    int test;
-    bool diff;
 
 
 private slots:
@@ -50,8 +43,8 @@ private:
     Ui::MainWindow *ui;
     std::thread _myThread;
 };
-float j=20;
-int z=i+j;
+
+
 
 //class MyMainWindow
 //{
