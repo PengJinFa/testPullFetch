@@ -33,7 +33,7 @@ public:
     float d;
 
     int test;
-
+    bool diff;
 
 
 private slots:
