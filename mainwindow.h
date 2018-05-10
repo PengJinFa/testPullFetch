@@ -45,7 +45,7 @@ private:
     std::thread _myThread;
 };
 float j=20;
-int z=i*j;
+int z=i*j-i;
 
 //class MyMainWindow
 //{
