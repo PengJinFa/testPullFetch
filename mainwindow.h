@@ -14,6 +14,9 @@ namespace Ui {
 class MainWindow;
 }
 
+int i=100;
+
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -40,6 +43,8 @@ private:
     Ui::MainWindow *ui;
     std::thread _myThread;
 };
+float j=20;
+int z=i*j;
 
 //class MyMainWindow
 //{
