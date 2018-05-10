@@ -18,6 +18,7 @@ class MainWindow;
 
 //第二次更改（我是管理者）+2
 //我的贡献2（我是贡献者）+1
+//提交以后的更改（我是贡献者）
 
 class MainWindow : public QMainWindow
 {
