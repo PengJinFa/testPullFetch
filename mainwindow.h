@@ -27,7 +27,17 @@ public:
     static void TestThread(MainWindow* mw,std::promise<int>& prom);
     static void TestThread1(MainWindow* mw);
     void TestMyObject();
+<<<<<<< HEAD
     int test=0;
+=======
+
+    int abc;
+
+    float d;
+
+    int test;
+>>>>>>> origin/master
+
 
 
 private slots:
@@ -44,8 +54,13 @@ private:
     Ui::MainWindow *ui;
     std::thread _myThread;
 };
+<<<<<<< HEAD
 float j=200;
 int z=i-j;
+=======
+float j=20;
+int z=i+j;
+>>>>>>> origin/master
 
 //class MyMainWindow
 //{
