@@ -44,8 +44,8 @@ private:
     Ui::MainWindow *ui;
     std::thread _myThread;
 };
-float j=20;
-int z=i*j-i;
+float j=200;
+int z=i-j;
 
 //class MyMainWindow
 //{
